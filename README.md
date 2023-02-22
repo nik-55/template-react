@@ -1,1 +1,1 @@
-# Activity Leaderboard
+# Template for React Project
