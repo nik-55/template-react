@@ -1,0 +1,42 @@
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.3em;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+.home-main-cont {
+  display: flex;
+}
+
+.projectcard-cont {
+  flex-grow: 1;
+}
+
+.leaderboard-cont {
+  width: 25%;
+}
+
+@media only screen and (max-width: 860px) {
+  .home-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-main-cont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leaderboard-cont {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .leaderboard-cont {
+    width: 80%;
+  }
+}
